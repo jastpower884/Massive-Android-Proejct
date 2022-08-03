@@ -1,7 +1,9 @@
 package com.jast.massive_project.package_49
 
 class Foo0 {
+    val text = ""
     fun foo0() {
+        println(text)
     }
 
     fun foo1() {

@@ -10,6 +10,10 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import com.jast.massive_project.databinding.ActivityMainBinding
+import com.jast.massive_project.package_49.Foo39
+import com.jast.massive_project.package_49.Foo49
+import com.jast.massive_project.package_49.Foo89
+import com.jast.massive_project.package_49.Foo99
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
+        Foo89().foo0()
         setContentView(binding.root)
 
         setSupportActionBar(binding.toolbar)
