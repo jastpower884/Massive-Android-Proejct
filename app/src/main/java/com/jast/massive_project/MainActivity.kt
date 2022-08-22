@@ -10,10 +10,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import com.jast.massive_project.databinding.ActivityMainBinding
-import com.jast.massive_project.package_49.Foo39
-import com.jast.massive_project.package_49.Foo49
-import com.jast.massive_project.package_49.Foo89
-import com.jast.massive_project.package_49.Foo99
+import com.jast.module4.package_49.Foo89
 
 class MainActivity : AppCompatActivity() {
 
